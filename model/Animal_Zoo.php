@@ -13,7 +13,7 @@ class Animal_Zoo {
     }
 
     public function getAttributs(){
-        return "L'animal numéro : ".$this->animal_id.", vient du zoo numéro : ".$this->zoo_id;
+        return "L'animal numéro : ".$this->animal_id.", vient du zoo numéro : ".$this->zoo_id.".";
     }
 }
 

@@ -13,12 +13,14 @@ class Zoo {
     }
 
     public function getAttributs(){
-        return "L'animal : ".$this->name." vient de/d' ".$this->city;
+        return "Le zoo a pour nom : ".$this->name." et est situé à ".$this->city.".";
     }
 }
 
 $Zoo1 = new Zoo("Le Zoo Rigolo", "Lyon");
 
 var_dump($Zoo1);  
+
+echo $Zoo1->getAttributs();
 
 ?>

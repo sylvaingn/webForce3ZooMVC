@@ -13,7 +13,7 @@ class Animal {
     }
 
     public function getAttributs(){
-        return "L'animal : ".$this->species." vient de/d' ".$this->country;
+        return "L'animal : ".$this->species." vient de/d' ".$this->country.".";
     }
 }
 
@@ -21,4 +21,5 @@ $melman = new Animal("Girafe", "Afrique");
 
 var_dump($melman);  
 
+echo $melman->getAttributs();
 ?>
