@@ -4,12 +4,14 @@
 require __DIR__ . '/config/config.php';
 
 $melman = new Animal;
-$melman->setSpecies("Girafe");
+var_dump($melman->setSpecies("Girafe"));
 
 $zooDeLyon = new Zoo;
 $zooDeLyon->setCity("Lyon");
 
 $newId = new AnimalZoo;
+$newId->setId("1");
+
 
 
 
